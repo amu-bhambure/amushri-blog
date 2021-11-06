@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -37,13 +38,13 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: monospace
+    font-family: monospace;
 }
 #bio {
 
@@ -89,8 +90,19 @@ p {
     padding-right: 0px;
     padding-bottom: 5px;
     font-family:fantasy;
-    font-size: 20px
+    font-size: 20px;
+
 }
 .links:hover {
     background-color:dodgerblue;
+}
+
+a{
+    text-decoration: none;}
+
+.article:hover{
+    color: darkgoldenrod;
+}
+html{
+    scroll-behavior: smooth;
 }
